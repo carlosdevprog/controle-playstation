@@ -1,0 +1,40 @@
+@media (max-width:760px) {
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        overflow: auto;
+
+    }
+
+    .row {
+        flex-direction: column-reverse;
+    }
+
+    .coluna-2 {
+        margin-bottom: 30px;
+    }
+
+    .color-box {
+        transform: translateX(70px);
+    }
+
+    #menu-list {
+        position: relative;
+        top: 85px;
+        left: 60px;
+        overflow: hidden;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .nav-li {
+        display: block;
+        margin-top: 5px;
+    }
+
+
+}
